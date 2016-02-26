@@ -1,0 +1,136 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+
+.current {
+	background-color: #aaa;
+}
+
+#tableWrapper{
+    overflow: auto;   
+}
+
+#filmDetailTable textarea{
+    width: 100%;
+	/* this will make it not look so much like a textarea
+	border: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	*/
+}
+
+#filmDetailTable textarea{
+	resize: none;
+}
+
+#filmsListWrapper {
+    overflow: auto;
+    background-color: #ffa64d;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);   
+}
+
+#workslate {
+    overflow: auto;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);   
+}
+
+.debugContainer {
+    overflow: auto;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);   
+}
+
+.mainContent{
+    padding-top: 50px;
+    height: 100%;
+}
+
+/* this is important so users cannot horizontally resize textareas in modals*/
+.modal-body textarea {
+	resize: vertical;
+}
+
+.mtoPanel {
+    display: none;
+    position: fixed;
+    top: 55px;
+    z-index: 3000;
+    border: 1px solid #666;
+    left: 345px;
+    font-size: 12px;
+    padding: 5px;
+    min-height: 150px;
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    background-color: #fff;
+    opacity: .93;
+    z-index: 170; /* this keeps it behind the nav menu, 1700 doesn't.  proper #??? */
+}
+.mtoPanel hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.panelLeftFixed {
+    display: none;
+    left: 0px;
+    top: 50px;
+    position: fixed;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 300px;
+    background-color: #fff;
+    z-index: 160; /* this keeps it behind the nav menu, 1700 doesn't.  proper #??? */    
+}
+
+
+
+.pull-left {
+    float: left !important;
+}
+.pull-right {
+    float: right !important;
+}
+
+
+#reviewModalTextA {
+		-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 90%;
+}
+#reviewModalTextAdd {
+		-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 90%;
+}
+
+/* jquery.validate */
+label.validateErr {
+	color: red;
+	margin-left: 5px;
+	font-size: 12px;	
+}
+
+
+
+

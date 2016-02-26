@@ -1,0 +1,17 @@
+<tr>
+	<td>
+		<%-name%>
+	</td>
+	<td>
+		*<%-genres[genre]%>
+	</td>
+	<td>
+		<%-length%>
+	</td>
+	<td>
+		<%-avgRating%>
+	</td>
+	<td>
+		<%-reviewQty%>
+	</td>
+</tr>

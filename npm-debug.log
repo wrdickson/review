@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-require-js' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'grunt-require-js', null ]
+6 verbose cache add name=undefined spec="grunt-require-js" args=["grunt-require-js",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grunt-require-js',
+7 verbose parsed url   path: 'grunt-require-js',
+7 verbose parsed url   href: 'grunt-require-js' }
+8 silly lockFile 4272f135-grunt-require-js grunt-require-js
+9 verbose lock grunt-require-js C:\Users\Radio Shack\AppData\Roaming\npm-cache\4272f135-grunt-require-js.lock
+10 silly lockFile 4272f135-grunt-require-js grunt-require-js
+11 silly lockFile 4272f135-grunt-require-js grunt-require-js
+12 verbose addNamed [ 'grunt-require-js', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile fe99fe6a-grunt-require-js grunt-require-js@
+15 verbose lock grunt-require-js@ C:\Users\Radio Shack\AppData\Roaming\npm-cache\fe99fe6a-grunt-require-js.lock
+16 silly addNameRange { name: 'grunt-require-js', range: '*', hasData: false }
+17 verbose request where is /grunt-require-js
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 4194d24a0cccca43
+20 verbose url raw /grunt-require-js
+21 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-require-js' ]
+22 verbose url resolved https://registry.npmjs.org/grunt-require-js
+23 verbose request where is https://registry.npmjs.org/grunt-require-js
+24 info trying registry request attempt 1 at 14:43:00
+25 http GET https://registry.npmjs.org/grunt-require-js
+26 http 404 https://registry.npmjs.org/grunt-require-js
+27 silly registry.get cb [ 404,
+27 silly registry.get   { 'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '2',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 31 Dec 2015 21:43:03 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1451598183.557510,VS0,VE173' } ]
+28 silly lockFile fe99fe6a-grunt-require-js grunt-require-js@
+29 silly lockFile fe99fe6a-grunt-require-js grunt-require-js@
+30 error 404 Not Found
+30 error 404
+30 error 404 'grunt-require-js' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Maybe try 'npm search grunt require'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Windows_NT 6.2.9200
+32 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-require-js"
+33 error cwd C:\wamp\www\filmReview1
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
